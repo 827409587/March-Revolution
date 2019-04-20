@@ -1,0 +1,34 @@
+server:
+  port: 8082
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+spring:
+  application:
+    name: education-server
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shiro?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Hongkong
+    username: root
+    password: 123456
+  #data:
+    #mongodb:
+      #host: 192.168.11.128
+      #port: 27017
+      #database: admin
+    #redis:
+      #host: 127.0.0.1
+      #port: 6379
+      #maxIdle: 300
+      #maxActive: 600
+      #maxWait: 1000
+      #testOnBorrow: true
+      #timeout: 1000
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: education-web
+  #data:
+    #elasticsearch:
+      #cluster-name: elasticsearch
+      #cluster-nodes: localhost:9300
+      #repositories:
+        #enabled: true
+  #rabbitmq:
+    #password: guest
+    #username: guest
+    #port: 5672
+    #host: localhost
+  thymeleaf:
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+server:
+  port: 8081
+
