@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://www.0xue.com/cshoppingcart.aspx -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit"> 
+    <title>我的购课车</title>
+    <!-- common style -->
+    <link href="./我的购课车_files/common.css" rel="stylesheet">
+    <!-- //common style -->
+	<!-- edufont css -->
+    <link href="./我的购课车_files/iconfont.css" rel="stylesheet">
+    <!-- //edufont css -->
+    <link href="./我的购课车_files/shopcart.css" rel="stylesheet">
+
+    <script src="./我的购课车_files/jquery.js.下载"></script>
+    <script src="./我的购课车_files/Kesion.Common.js.下载"></script><link rel="stylesheet" href="./我的购课车_files/opera.css"><script src="./我的购课车_files/jquery.artDialog.js.下载"></script><script src="./我的购课车_files/iframeTools.js.下载"></script>
+    <!--[if lt IE 9]>
+      <script src="/ks_inc/html5shiv.js"></script>
+    <![endif]-->
+
+<style id="popup_style">.popup_alert,.popup_tips{position: fixed;left:50%;top:50%;z-index:9999;opacity:0;border-radius:4px;}.popup_alert{min-width:300px;box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); background:#fff; padding-bottom:42px;}.popup_mask{position: fixed;width:100%;height:100%;left:0;top:0; z-index:9990;background:rgba(0,0,0,0.3); opacity:0}.popup_title{ font-size:16px; color:#666; height: 50px; line-height: 50px; padding:0 15px;position:relative;}.popup_close{width:32px;height:32px;background-image:url(/ks_inc/static/img/icons.png);position:absolute; right:10px;top:50%;margin-top:-16px;background-repeat:no-repeat; background-position:0 -92px;cursor: pointer}.popup_close:hover{background-position:-32px -92px;}.popup_msg{padding:10px 15px 30px 65px; color:#666;position:relative;font-size:14px; line-height: 24px;}.popup_button{ position:absolute;right:15px;bottom:15px;  }.popup_button span{width:70px;height:32px; line-height:32px; background:#37a7ed; color:#fff; text-align:center;border-radius:4px; cursor: pointer;float:left;margin-left:10px; font-size:14px;}.popup_button .cancel{background:#ccc}.popup_icon_default,.popup_icon_warning,.popup_icon_success,.popup_icon_error{width:32px;height:32px; position:absolute;left:20px;top:5px;background-image:url(/ks_inc/static/img/icons.png); background-repeat:no-repeat;}.popup_icon_warning{ background-position:0 -64px}.popup_icon_success{ background-position:0 -32px}.popup_icon_error{ background-position:-32px -32px}.popup_tips{background:rgba(0,0,0,0.6);color:#fff;padding:10px 15px;font-size:14px;}</style></head>
+<body><div class="" style="display: none; position: absolute;"><div class="aui_outer"><table class="aui_border"><tbody><tr><td class="aui_nw"></td><td class="aui_n"></td><td class="aui_ne"></td></tr><tr><td class="aui_w"></td><td class="aui_c"><div class="aui_inner"><table class="aui_dialog"><tbody><tr><td colspan="2" class="aui_header"><div class="aui_titleBar"><div class="aui_title" style="cursor: move;"></div><a class="aui_close" href="javascript:/*artDialog*/;">×</a></div></td></tr><tr><td class="aui_icon" style="display: none;"><div class="aui_iconBg" style="background: none;"></div></td><td class="aui_main" style="width: auto; height: auto;"><div class="aui_content" style="padding: 20px 25px;"></div></td></tr><tr><td colspan="2" class="aui_footer"><div class="aui_buttons" style="display: none;"></div></td></tr></tbody></table></div></td><td class="aui_e"></td></tr><tr><td class="aui_sw"></td><td class="aui_s"></td><td class="aui_se" style="cursor: se-resize;"></td></tr></tbody></table></div></div>
+
+     	<!--[if lt IE 9]>
+	<style>
+		.low-ie-bg{width:100%;height:100%; position: fixed;left:0;top:0;background:#000;filter:alpha(opacity=30); -moz-opacity:0.3; -khtml-opacity: 0.3;  opacity: 0.3; z-index: 990;display:none;}
+		.low-ie-tips{width:580px;margin:0 auto; position: fixed;left:50%;top:50%;margin-left:-290px;height:360px;margin-top:-180px;background:#fff; z-index: 999; text-align: center; display:none;}
+		.low-ie-title{font-size:24px;font-weight:bold;margin-top:30px; line-height:36px;}
+		.low-ie-title img{height:44px;margin:-7px 10px 0 0;}
+		.low-ie-info{line-height:34px; font-size:14px;color:#555;margin-top:5px;}
+		.low-ie-btn{font-size:16px;margin-top:20px;line-height:36px; color:#999;}
+		.low-ie-btn span{cursor: pointer;}
+		.low-ie-browset{ text-align: center;line-height: 36px;height:130px;margin:40px 40px 0 40px; overflow: hidden;}
+		.low-ie-browset li{width:33.2%;float:left; text-align: center; font-size:14px;line-height: 24px;}
+		.low-ie-browset li img{width:80px;height:80px; display: block;margin:0 auto;}
+		.low-ie-browset li a{color:#555;}
+	</style>
+
+	<div class="low-ie-bg"></div>
+	<div class="low-ie-tips">
+		<div class="low-ie-title"><img src="/SysImg/browset/tips.png" align="texttop" />警告！您的浏览器版本过低</div>
+		<div class="low-ie-info">推荐使用以下浏览器或浏览器版本，以便获得更好的学习体验</div>
+		<div class="low-ie-browset">
+			<ul>
+				<li><a href="https://www.baidu.com/s?wd=%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8&rsv_spt=1&rsv_iqid=0xc82eac3500000ba5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=baiduhome_pg&rsv_enter=0&oq=%25E8%25B0%25B7%25E6%25AD%258C%25E6%25B5%258F%25E8%25A7%2588%25E5%2599%25A8&rsv_t=e3e8nc78TItJRNOlWeQoLRSt7BZkBas9lY0qfIPGvesm%2BHUoy8B9w0aUZiqX7cLTjzHS&rsv_pq=a91368a7000010c7&bs=%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8" target="_blank"><img src="/SysImg/browset/chrome.jpg" /><p>chrome</p></a></li>
+				<li><a href="https://www.baidu.com/s?wd=Firefox%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8&rsv_spt=1&rsv_iqid=0xc82eac3500000ba5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=baiduhome_pg&rsv_enter=0&oq=firefox&rsv_t=78a1JcRWP0F3Z59OBsjVWKXAUnACD1InVL2aRDEXOQ44tx8iPgTjH30s1JMtk7cRTUjD&rsv_pq=b30683b900004db5&inputT=543&rsv_sug3=34&rsv_sug1=31&rsv_sug7=100&rsv_n=2&rsv_sug2=0&rsv_sug4=569" target="_blank"><img src="/SysImg/browset/firefox.png" /><p>Firfox</p></a></li>
+				<li><a href="https://www.baidu.com/s?wd=ie10&rsv_spt=1&rsv_iqid=0xc82eac3500000ba5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=baiduhome_pg&rsv_enter=0&oq=ie%25E6%25B5%258F%25E8%25A7%2588%25E5%2599%25A8&rsv_t=0c09TewQcsF02CYRaFZ%2BZqSXC9qojBGkTmoiRVrSbJtLu0utmlbRo4avOYLJYvWWtEtw&rsv_pq=df1c07c80000468d&inputT=522&rsv_sug3=25&rsv_sug1=22&rsv_sug7=100&rsv_sug2=0&rsv_sug4=1757" target="_blank"><img src="/SysImg/browset/ie.jpg" /><p>IE9+</p></a></li>
+			</ul>
+		</div>
+		<div class="low-ie-btn"><span onclick="closeLowIeTips()">不，我就要用这个浏览器访问 &gt;&gt;</span></div>
+	</div>
+	<script>
+		if(getCookie('closeLowIe')!=1){
+			$('.low-ie-tips,.low-ie-bg').show();
+		};
+		function closeLowIeTips(){
+			$('.low-ie-bg,.low-ie-tips').fadeOut(300);
+			setCookie('closeLowIe',1);
+		};
+	</script>
+	<![endif]-->
+
+	
+<header class="header">
+		<div class="top-bar">
+			<div class="page-width">
+				<nav class="top-bar-menu">
+					<ul>
+						<li><a href="http://www.0xue.com/" target="_blank" style="border-left:none;">学习中心</a></li>
+						<li><a href="http://www.0xue.com/room.aspx?uid=0" target="_blank">班级中心</a></li>
+						<li><a href="http://www.0xue.com/group.aspx?uid=0" target="_blank">兴趣小组</a></li>
+						<li><a href="http://www.0xue.com/ask.aspx?uid=0" target="_blank">在线问吧</a></li>
+						<li><a href="http://www.0xue.com/exam/index.aspx?uid=0" target="_blank">在线考试</a></li>
+						<li><a href="http://www.0xue.com/wj.aspx?uid=0" target="_blank">问卷调查</a></li>
+					</ul>
+				</nav>
+				<div class="top-bar-user" id="nologin"><div class="loginBtn"><a href="http://www.0xue.com/login.aspx">登录</a>/<a href="http://www.0xue.com/reg.aspx">注册</a></div></div>
+			</div>
+		</div>
+
+		<div class="header-cont page-width">
+
+				<div class="header-logo"><img src="./我的购课车_files/M131521083058129.png"></div>
+				<!--search-->
+				<div class="search">
+				    <div class="search-selected" onclick="openSearchSelect(this)"><i class="edufont e-icon-arrowright"></i><span>网授</span></div>
+				    <div class="search-option-list">
+				       	<ul>
+				       		<li onclick="selectSearchType(this,&#39;http://www.0xue.com/cl.aspx?uid=0&#39;)">网授</li>
+				       		<li onclick="selectSearchType(this,&#39;http://www.0xue.com/fl.aspx?uid=0&#39;)">面授</li>
+				       		<li onclick="selectSearchType(this,&#39;http://www.0xue.com/ll.aspx?uid=0&#39;)">直播</li>
+				       		<li onclick="selectSearchType(this,&#39;http://www.0xue.com/eplist.aspx?uid=0&#39;)">机构</li>
+				       		<li onclick="selectSearchType(this,&#39;http://www.0xue.com/ask/list.aspx?uid=0&#39;)">问答</li>
+				       		<li onclick="selectSearchType(this,&#39;http://www.0xue.com/examlist/list.aspx?uid=0&#39;)">试卷</li>
+				       		<li onclick="selectSearchType(this,&#39;http://www.0xue.com/search.aspx?uid=0&#39;)">内容</li>
+				       	</ul>
+				    </div>
+				    <div class="search-text"><input type="input" id="search-key-text" onfocus="this.value=(this.value==&#39;请输入关键字...&#39;)?&#39;&#39;:this.value" onblur="this.value=(this.value==&#39;&#39;)?&#39;请输入关键字...&#39;:this.value" value="请输入关键字..."></div>
+				    <div class="search-button"><input type="button" value="搜索" onclick="doSearch(&#39;http://www.0xue.com/cl.aspx?uid=0&#39;);"></div>
+				</div>
+					
+				<!--//search-->
+				
+				<div class="header-gwc">
+					<a href="http://www.0xue.com/cshoppingcart.aspx?uid=0" target="_blank" id="cartnum"><i class="edufont e-icon-gouwuche"></i>购课车</a>
+				</div>
+				
+				<div class="clear"></div>
+				<nav class="header-nav">
+					<ul>
+						<li class="head-nav-allbtn"><a href="http://www.0xue.com/cl.aspx?uid=0"><i class="edufont e-icon-Listmode"></i>全部课程</a></li>
+						<li><a href="http://www.0xue.com/">首页</a></li>
+						<li><a href="http://www.0xue.com/cl.aspx?uid=0">课程</a>
+							<div class="header-nav-sub">
+						         <a href="http://www.0xue.com/a/2277.aspx">网校课程</a>
+						         <a href="http://www.0xue.com/ll.aspx?uid=0">直播课程</a>
+						         <a href="http://www.0xue.com/a/2278.aspx">面授课程</a>
+		     				</div>
+						</li>
+						<li><a href="http://www.0xue.com/cl.aspx?promotion-1&amp;uid=0">营销</a>
+							<div class="header-nav-sub">
+						         <a href="http://www.0xue.com/cl.aspx?promotion-1&amp;uid=0">课程抢购</a>
+						         <a href="http://www.0xue.com/cl.aspx?promotion-2&amp;uid=0">课程团购</a>
+						         <a href="http://www.0xue.com/cl.aspx?promotion-3&amp;uid=0">积分兑换</a>
+						         <a href="http://www.0xue.com/bl.aspx?uid=0">课程套餐</a>
+		     				</div>
+						</li>
+						<li><a href="http://www.0xue.com/eplist.aspx?uid=0">机构</a></li>
+						<li><a href="http://www.0xue.com/tl.aspx?uid=0">教师</a></li>
+						<li><a href="http://www.0xue.com/a/1240.aspx">资料</a></li>
+						<li><a href="http://www.0xue.com/a/8.aspx">资讯</a></li>
+						<li><a href="http://www.0xue.com/a/1252.aspx">作品</a></li>
+						<li><a href="http://www.0xue.com/a/912.aspx">商城</a></li>
+						<li><a href="http://www.0xue.com/job/index.aspx?uid=0">招聘</a></li>
+					</ul>
+
+				</nav>
+
+		</div>
+	</header>
+	<!--// header-->
+    <section class="page-width p-relative">
+    	<div class="course-top-classify"><ul><li class="li-first"><i class="iconfont eduicon-jiantou"></i><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=1">公务员</a></li><li><i class="iconfont eduicon-jiantou"></i><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=9">建筑工程</a></li><li><i class="iconfont eduicon-jiantou"></i><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=27">计算机</a></li></ul></div>
+    	<div class="course-top-classbox">
+    		<div class="inner class-show">
+	<div class="inner-class">
+		<div class="inner-title" data-url="/index.aspx?c=course&amp;a=list&amp;id=1">公务员</div>
+		<a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=12" target="_blank">国家公务员</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=13" target="_blank">联考公务员</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=14" target="_blank">事业单位</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=631" target="_blank">公共基础</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=632" target="_blank">政法干警</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=633" target="_blank">农村信用社</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=634" target="_blank">招警</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=635" target="_blank">村官</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=636" target="_blank">公选</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=637" target="_blank">特岗教师</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=757" target="_blank">烟草考试</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=773" target="_blank">银监局招聘</a>
+	</div>
+
+	<div class="inner-course">
+		<div class="inner-title"><span><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=1">更多&gt;&gt;</a></span>系列课程</div>
+		<ul>
+			
+                	
+<li>
+	<div class="img"><a href="http://www.0xue.com/cv-329.aspx" target="_blank"><img src="./我的购课车_files/5131964365304609.jpg" alt="【公告解读】2019年云南省公务员招录考试公告解读" class="m-img"></a></div>
+	<div class="name"><a href="http://www.0xue.com/cv-329.aspx" target="_blank">【公告解读】2019年云南省公务员招录考试公告解读</a></div>
+</li>
+
+<li>
+	<div class="img"><a href="http://www.0xue.com/cv-301.aspx" target="_blank"><img src="./我的购课车_files/I131935701349306.jpg" alt="【师远教育】2019年特岗两学课程为您保驾护航" class="m-img"></a></div>
+	<div class="name"><a href="http://www.0xue.com/cv-301.aspx" target="_blank">【师远教育】2019年特岗两学课程为您保驾护航</a></div>
+</li>
+
+<li>
+	<div class="img"><a href="http://www.0xue.com/cv-277.aspx" target="_blank"><img src="./我的购课车_files/M131649660728223.jpg" alt="【公告解读】2018年云南省公务员考试公告解读" class="m-img"></a></div>
+	<div class="name"><a href="http://www.0xue.com/cv-277.aspx" target="_blank">【公告解读】2018年云南省公务员考试公告解读</a></div>
+</li>
+
+<li>
+	<div class="img"><a href="http://www.0xue.com/cv-276.aspx" target="_blank"><img src="./我的购课车_files/Y131648967088101.jpg" alt="【考情分析】2018年事业单位考情分析" class="m-img"></a></div>
+	<div class="name"><a href="http://www.0xue.com/cv-276.aspx" target="_blank">【考情分析】2018年事业单位考情分析</a></div>
+</li>
+
+                	
+		</ul>
+	</div>
+</div>  
+<div class="inner">
+	<div class="inner-class">
+		<div class="inner-title" data-url="/index.aspx?c=course&amp;a=list&amp;id=9">建筑工程</div>
+		<a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=722" target="_blank">一级建造师</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=723" target="_blank">二级建造师</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=724" target="_blank">造价师</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=725" target="_blank">造价员</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=726" target="_blank">物业管理师</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=727" target="_blank">招标师</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=728" target="_blank">电气工程师</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=729" target="_blank">安全工程师</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=730" target="_blank">咨询工程师</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=731" target="_blank">监理工程师</a>
+	</div>
+
+	<div class="inner-course">
+		<div class="inner-title"><span><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=9">更多&gt;&gt;</a></span>系列课程</div>
+		<ul>
+			
+                	
+<li>
+	<div class="img"><a href="http://www.0xue.com/cv-328.aspx" target="_blank"><img src="./我的购课车_files/O131960716969124.jpg" alt="【全科VIP高端班】2019年一级造价工程师考前培训（网课）" class="m-img"></a></div>
+	<div class="name"><a href="http://www.0xue.com/cv-328.aspx" target="_blank">【全科VIP高端班】2019年一级造价工程师考前培训（网课）</a></div>
+</li>
+
+<li>
+	<div class="img"><a href="http://www.0xue.com/cv-327.aspx" target="_blank"><img src="./我的购课车_files/K131960714472718.jpg" alt="【全科VIP通关班】2019年一级造价工程师考前培训（网课）" class="m-img"></a></div>
+	<div class="name"><a href="http://www.0xue.com/cv-327.aspx" target="_blank">【全科VIP通关班】2019年一级造价工程师考前培训（网课）</a></div>
+</li>
+
+<li>
+	<div class="img"><a href="http://www.0xue.com/cv-326.aspx" target="_blank"><img src="./我的购课车_files/W131960711415218.jpg" alt="【全科VIP经济班】2019年一级造价工程师考前培训（网校）" class="m-img"></a></div>
+	<div class="name"><a href="http://www.0xue.com/cv-326.aspx" target="_blank">【全科VIP经济班】2019年一级造价工程师考前培训（网校）</a></div>
+</li>
+
+<li>
+	<div class="img"><a href="http://www.0xue.com/cv-325.aspx" target="_blank"><img src="./我的购课车_files/8131960705115530.jpg" alt="【VIP通关班】2019年一级造价工程师考前培训-建设工程造价案例分析（网课）" class="m-img"></a></div>
+	<div class="name"><a href="http://www.0xue.com/cv-325.aspx" target="_blank">【VIP通关班】2019年一级造价工程师考前培训-建设工程造价案例分析（网课）</a></div>
+</li>
+
+                	
+		</ul>
+	</div>
+</div>  
+<div class="inner">
+	<div class="inner-class">
+		<div class="inner-title" data-url="/index.aspx?c=course&amp;a=list&amp;id=27">计算机</div>
+		<a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=775" target="_blank">平面设计</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=776" target="_blank">室内建筑</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=777" target="_blank">影视后期</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=778" target="_blank">IT互联网</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=779" target="_blank">职场办公</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=780" target="_blank">游戏动画</a><em>|</em><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=781" target="_blank">等级考证</a>
+	</div>
+
+	<div class="inner-course">
+		<div class="inner-title"><span><a href="http://www.0xue.com/index.aspx?c=course&amp;a=list&amp;id=27">更多&gt;&gt;</a></span>系列课程</div>
+		<ul>
+			
+		</ul>
+	</div>
+</div>  
+
+    	</div>
+    </section>  
+
+   <section class="title-banner bg-gkc">
+        <div class="page-width">
+            <h4>购课车</h4>
+        </div>
+   </section>
+    
+<div class="page-width" style="padding-bottom:60px;">
+    <section class="shopping_cont bd-all">
+
+        <form action="http://www.0xue.com/corderinfo.aspx" method="post">
+            <div class="cartbox">
+            	<ul id="commodityDisplay">
+                	
+				
+				<li>
+                	<div class="lct"><div class="checkbox"><input type="checkbox" name="ids" value="7648" checked="checked" onclick="onpay()"></div><a href="http://www.0xue.com/cv-76.aspx" target="_blank"><img src="./我的购课车_files/G131886469028347.jpg" onerror="replaceDefaultImg(this)"></a></div>
+                    <div class="mct">
+                    	<div class="mtit"><a href="http://www.0xue.com/cv-76.aspx" target="_blank" title="云南省公务员考试《行政职业能力测验》专项套读">云南省公务员考试《行政职业能力测验》专项套读</a></div>
+                        <div class="minfo"> <div class="minfo-tit">   </div>
+							<div class="minfobox">
+								<span style="border:0px;">类型<br>点播课程</span>
+								<span>原价<br> <strong id="p_7648">880.00</strong>元</span>
+								<span>优惠<br><font color="#9DC21B"> 300.00元</font></span>
+                				<input type="hidden" id="pt_7648" value="880.00">
+							</div>
+						</div>
+            		</div>
+                    <div class="rct">
+                    	<div class="price">价格：<span id="r_7648">580.00</span>元</div>
+                      	<input type="hidden" value="580.00" id="price_7648">
+                        <a class="del" href="http://www.0xue.com/cshoppingcart.aspx?action-del,ids-7648">删除</a>
+                    </div>
+                </li>
+				
+					
+				<div class="cart-top" style="display">
+                    <div class="btn1"><label for="chkall"><input type="checkbox" name="chkall" id="chkall" checked="" onclick="CheckpayAll(this.form);">全选</label></div>
+					<div class="btn2"><a href="javascript:;" class="delete-text del-all" onclick="doDelete()">删除</a></div>
+					
+                </div>
+      
+	
+                </ul>
+                <div style="position:relative">
+                    <div class="button-box">
+                         <input type="hidden" name="action" value="orderinfo">
+                         <input type="submit" id="order-button" class="order-button" value="去结算" onclick="return check()"> 
+                    </div>    	
+                </div>
+            	<div id="shop_pirce">
+                   
+                     <div class="c-p-title">
+                         已选 <span id="count_id">1</span>个课程，总价 &nbsp; <span id="price_id" style="font-size:18px; color: #b0b0b0; text-decoration:line-through">880.00</span> &nbsp; 元，<strong>折后总价</strong> &nbsp; <strong id="pay_id" style="color:#ff4000; font-size:30px;font-weight: normal;">580.00</strong> &nbsp; 元
+                     (若购买享有优惠，相应金额将在订单结算页面减扣)</div>
+                    
+                 </div>
+            </div>
+    		    	
+    		<div class="clear"></div>
+            
+  
+    	</form>
+    </section>
+
+
+</div>
+
+
+<script>
+	$(function(){
+       initShoppingCart();
+    })
+
+	function initShoppingCart(){
+	
+		$.ajax({
+			url:"http://192.168.101.103:8081/queryCartProduct",
+			success:function(data){
+				var html="";
+				for(var i=0 ;i <data.length;i++){
+					html+='<li>' +
+							'         <div class="lct"><div class="checkbox"><input type="checkbox" name="ids" value="7648" checked="checked" onclick="onpay()"></div><a href="#" target="_blank"><img src="'+data[i].courseImg+'" onerror="replaceDefaultImg"></a></div>' +
+							'                    <div class="mct">\n' +
+							'                    <div class="mtit"><a href="#" target="_blank" title="">'+data[i].courseName+'</a></div>' +
+							'                        <div class="minfo"> <div class="minfo-tit">   </div>' +
+							'<div class="minfobox">' +
+							'<span style="border:0px;">类型<br>点播课程</span>' +
+							'<span>原价<br> <strong id="p_7648">880.00</strong>元</span>' +
+							'<span>优惠<br><font color="#9DC21B"> 300.00元</font></span>' +
+							'                <input type="hidden" id="pt_7648" value="880.00">' +
+							'</div>' +
+							'</div>' +
+							'            </div>' +
+							'                    <div class="rct">' +
+							'                    <div class="price">价格：<span id="r_7648">'+data[i].coursePrice+'</span>元</div>' +
+							'                      <input type="hidden" value="580.00" id="price_7648">' +
+							'                        <a class="del" href="http://www.0xue.com/cshoppingcart.aspx?action-del,ids-7648">删除</a>' +
+							'                    </div>' +
+							'                </li>';
+				}
+				
+
+			
+			}
+
+		
+		})
+	}
+	
+</script>
+
+
+
+ <footer class="footer">
+	<div class="page-width clearfix">
+		<div class="foot_top clearfix">
+			<div class="link-item hidden-xs">
+			  <h3>关于我们</h3>
+			  <ul>
+				 
+  
+			  </ul>
+			</div>
+
+			<div class="link-item ">
+			  <h3>我是学生</h3>
+			  <ul>
+				 
+  	
+		      </ul>
+			</div>
+			<div class="link-item ">
+			  <h3>我是老师</h3>
+			  <ul>
+				 
+    
+			  </ul>
+			</div>
+			<div class="link-item">
+				<h3>我是机构</h3>
+				<ul>
+				  
+  
+				</ul>
+			</div>
+			<div class="tel-item">
+				<h3>客服热线</h3>
+				<div class="tel">400-008-0263<span>( 9:00-24:00 )</span></div>
+				<div class="follow-icon">
+					
+				   <a class="a-weibo" href="http://www.weibo.com/kesioni30" target="_blank">
+					   <i class="edufont e-icon-weibo"></i>
+				   </a>
+				   <a class="a-txweibo" href="http://t.qq.com/kesioncms" target="_blank">
+					   <i class="edufont e-icon-txweibo"></i>
+				   </a>
+				   <a class="a-wechat" href="javacript:void(0);">
+					   <i class="edufont e-icon-wechat-copy"></i>
+					   <span class="code-img"><img src="./我的购课车_files/code.png" class="codeimg" title=""></span>
+				   </a>
+			    </div>
+			</div>
+		</div>
+
+	     <div class="foot_inner clearfix">
+		   Powered By 0xue  www.0xue.com inc.中国·昆明·领学网 昆明创雄文化传播有限公司 版权所有 © 2008-2019 &nbsp;&nbsp;
+<script src="./我的购课车_files/z_stat.php" language="JavaScript"></script><script src="./我的购课车_files/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1699450" target="_blank" title="站长统计">站长统计</a> &nbsp;&nbsp;<a target="_blank" href="https://v.pinpaibao.com.cn/cert/site/?site=www.0xue.com&amp;at=realname"><img src="./我的购课车_files/sm_83x30.png"></a> &nbsp;&nbsp;<a target="_blank" href="https://v.pinpaibao.com.cn/cert/site/?site=www.0xue.com&amp;at=realname"><img src="./我的购课车_files/aqkx_83x30.png"></a><br>
+服务电话：0871-65352188 传真：0871-65352188 E-Mail:yn0xue@126.com 本站法律顾问：云南经典阳光律师事务所（冯君律师）滇ICP备11001452号-云教备1011018
+		 </div>
+	</div>
+</footer>
+<!--//footer-->
+
+    <aside class="aside-operate">
+    	<ul>
+    		<li style="border-top:0" onclick="window.open(&#39;http://www.0xue.com/message.aspx?uid=0&#39;)"><span>留言<br>建议</span><i class="edufont e-icon-yijianfankui"></i></li>
+    		<li><span>手机<br>app</span><i class="edufont e-icon-phone"></i><div class="code-box"><em></em><img src="./我的购课车_files/wechat-code.png"><p>下载移动app</p></div></li>
+    		<li><span>关注<br>微信</span><i class="edufont e-icon-wechat"></i><div class="code-box"><em></em><img src="./我的购课车_files/wechat-code.png"><p>关注微信公众号</p></div></li>
+    		<li onclick="goTop()"><span>返回<br>头部</span><i class="edufont e-icon-top"></i></li>
+    	</ul>
+    </aside>  
+<script src="./我的购课车_files/main.js.下载"></script>
+<script src="./我的购课车_files/skin.js.下载"></script>
+<script src="./我的购课车_files/Course.js.下载"></script>
+<script>
+onpay()
+</script>
+
+
+<div style="display: none; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; cursor: move; opacity: 0; background: rgb(255, 255, 255);"></div></body></html>

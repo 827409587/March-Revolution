@@ -1,0 +1,90 @@
+﻿
+/*热门课程*/
+.course-hot{height:480px; overflow: hidden;}
+.course-hot ul{ padding:30px 0;}
+.course-hot li{width:25%;float:left;}
+.course-hot-box{margin-right:20px;background:#fff;padding-bottom:20px;}
+.course-hot-img{height:190px; overflow:hidden;}
+.course-hot-img img{width:100%;min-height:100%;}
+.course-hot-title{font-size:16px;height:36px;line-height: 36px;margin-top:10px; overflow:hidden;}
+.course-hot-info{line-height:22px;color:#999;height:44px; overflow: hidden; }
+.course-hot-price{font-size:18px; line-height:38px;color:#f54444;}
+.course-hot-button,
+.course-hot-info,
+.course-hot-price,
+.course-hot-title{ padding:0 20px;}
+.course-hot-button a{ display:block;color:#fff;border-radius:4px;width:120px;margin-top:10px;height:36px;line-height: 36px;background: #3ab57f; text-align: center; font-size:14px;}
+.course-hot-button a:hover{background:#00b984;}
+
+/*课程列表*/
+.course-list{background: #fff;margin-top:30px;;margin-bottom: 20px;}
+.course-list li{ position: relative; padding:20px 200px 20px 310px;height:175px;border-top:1px solid #ebebeb; position: relative; transition: .3s;}
+.course-list li:first-child{border-top:0px;}
+.course-list-img{width:270px;height:175px; overflow:hidden;position: absolute;left:20px;top:20px;}
+.course-list-img img{width:100%; min-height:100%;}
+.course-list-img .live-state{width:100%;height:34px;font-size:14px;line-height:34px; position: absolute;bottom:0;left:0;text-align: center;color:#fff;background:url(../common/rgba0_60.png);}
+.course-list-img .live-state span{background:url(live.gif) no-repeat 0 50%;padding-left:35px;}
+.course-list-title{font-size:20px;height:40px;line-height:40px; overflow: hidden;}
+.course-list-info{color:#9b9b9b;line-height:24px; font-size:14px;margin-top:5px;height:24px; overflow: hidden;}
+.course-list-info a{color:#9b9b9b;}
+.course-list-star{height:32px;line-height:32px;margin-top:10px; position: relative;}
+.course-list-star .text{color:#6b6b6b; padding-left:5px;float:left;}
+.course-list-star .text span{padding:0 5px;}
+.course-list-star .star,
+.course-list-star .star-on{height:14px;float:left;margin-top:9px;}
+.course-list-star .star{width:70px;background: url(star.png) repeat-x;}
+.course-list-star .star-on{position: absolute;left:0;top:0;background: url(star-ed.png) repeat-x;}
+.course-list-price{font-size:22px;line-height:38px;color:#ff4000;margin-top:10px;}
+.course-list-price .free_cor{color:#3ab57f;}
+.course-list-price .qgbg{width:40px;height:50px; position: absolute;left:20px;top:0px; text-indent: -999em; overflow:hidden;background:url(sign.png) no-repeat;}
+.course-list-price em{font-size:14px;color:#ababab;margin-left:20px; text-decoration: line-through;}
+.course-list-price .qg-text{font-size:12px;}
+.course-list-btn{ position: absolute;right:40px;top:50%;height:36px;line-height: 36px;margin-top:-25px; }
+.course-list-btn a{ display: block;background:#3ab57f;color:#fff;border-radius:3px; font-size:16px; padding:0 40px; transition: .3s;}
+.course-list-btn a:hover{background:#2ea872;}
+.course-list-time{ position: absolute;right:40px;bottom:40px;line-height:24px; color:#9b9b9b;}
+.course-list-time font{font-size:24px;color:#f54444;margin:0 3px;font-weight:bold;}
+.course-list .course-col-ep{font-size:14px;}
+.course-list-button{position: absolute;right:40px;top:50%;margin-top:-18px;}
+.course-list-button a{width:120px;height:36px; color:#fff; line-height:40px; text-align: center;border-radius:3px;background:#3ab57f;font-size:16px; display: block;}
+.course-list-button a:hover{background:#25aa6f;}
+
+.course-list-state{ position: absolute;right: 30px;bottom: 30px;font-size:13px;}
+.course-list-state span{float:left;padding:0 10px;color:#b2b2b2; cursor: pointer;}
+.course-list-state i{font-size:15px;float:left;}
+.course-list-state b{font-weight: normal;margin-left:3px;}
+
+.course-list-state .zan-hover{color:#37ba82;}
+.course-list-state .collect-hover{color:#f26c60;}
+
+.course-col{height:360px;}
+.course-col ul{display: none;}
+.course-col li{width:25%;float:left;}
+.course-col-box{margin:30px 30px 0 0; padding:10px;border:1px solid #eee;border-radius:3px;position: relative;background:#fff; transition: .3s;}
+.course-col-box:hover{border: 1px solid #e6e6e6;border-bottom: 1px solid #d2d2d2; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);}
+.course-col-img{height:165px; overflow: hidden; position: relative;}
+.course-col-img img{width:100%;min-height:100%;}
+.course-col-title{font-size: 15px;height:35px; line-height:35px;margin-top:5px; overflow: hidden;}
+.course-col-star{float:right; position: relative;margin-left:10px;}
+.course-col-star .star,
+.course-col-star .star-on{height:14px;float:left;margin-top:11px;}
+.course-col-star .star{width:70px;background: url(star.png) repeat-x;}
+.course-col-star .star-on{position: absolute;left:0;top:0;background: url(star-ed.png) repeat-x;}
+.course-col-price{font-size:14px;color:#4d4d4d;font-weight:bold;line-height:28px; }
+.course-col-price .free_cor{font-weight: normal;}
+.course-col-price .icon{float:right;color:#9b9b9b;font-weight: normal; font-size:13px;color:#b2b2b2; margin-left:15px;}
+.course-col-price .icon i{float:left;font-size:15px;margin-right:3px; }
+.course-col-price .qgbg{display: none;}
+
+.course-col-button{margin-top:15px;}
+.course-col-button .button{width:110px;height:34px;line-height:34px;background:#3ab57f;color:#fff;float:left;font-size:14px;border-radius:3px; text-align: center;}
+.course-col-target{font-size:13px;line-height:23px;height:46px;color:#9b9b9b;border-bottom:1px solid #ebebeb;padding-bottom:10px;overflow: hidden;}
+.course-col-ep{height:22px;line-height:22px;overflow: hidden;color:#9b9b9b;}
+.course-col-ep a{color:#9b9b9b;}
+.course-col-bg{width:100%;height:100%; position: absolute;left:0;top:0; text-align: center;background:url(../common/rgba0-40.png); display: none;}
+.course-col-bg p{line-height:28px;padding-top:120px;font-size:16px;color:#fff; transition.3s;}
+.course-col .carousel-dots i{background:#9b9b9b;width:8px;height:8px;}
+.course-col .carousel-dots .on{background:#3ab57f;}
+
+
+.paging{padding:40px 0;}

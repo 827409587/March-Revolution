@@ -12,21 +12,21 @@ spring:
     url: jdbc:mysql://localhost:3306/shiro?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Hongkong
     username: root
     password: 123456
-  #data:
-    #mongodb:
-      #host: 192.168.11.128
-      #port: 27017
-      #database: admin
-    #redis:
-      #host: 127.0.0.1
-      #port: 6379
-      #maxIdle: 300
-      #maxActive: 600
-      #maxWait: 1000
-      #testOnBorrow: true
-      #timeout: 1000
-  rabbitmq:
+  data:
+    mongodb:
+      host: 192.168.11.129
+      port: 27017
+      database: admin
+  redis:
     host: 127.0.0.1
+    port: 6379
+    maxIdle: 300
+    maxActive: 600
+    maxWait: 1000
+    testOnBorrow: true
+    timeout: 1000
+  rabbitmq:
+    host: localhost
     port: 5672
     username: guest
     password: guest

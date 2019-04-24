@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+em, i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #e33333
+}
+
+button, input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, \\5B8B\4F53, sans-serif
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, \\5B8B\4F53, sans-serif;
+    color: #666
+}
+
+.hide, .none {
+    display: none
+}
+.index {
+    background-color: #f0f3ef
+}
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+.w {
+    margin: auto;
+    width: 1190px
+}
+.search-m {
+    position: relative;
+    z-index: 1;
+    height: 60px
+}
+
+.search-m .form {
+    position: absolute;
+    left: 320px;
+    top: 25px;
+    width: 550px;
+    height: 35px
+}
+
+
+.search-m .button, .search-m .search_bg, .search-m .text {
+    position: absolute;
+    top: 0;
+    outline: none
+}
+
+.search-m .text {
+    color: #333
+}
+
+.search-m .search_bg, .search-m .text {
+    left: 0;
+    padding: 4px 44px 4px 4px;
+    width: 498px;
+    height: 35px;
+    border: 1px solid transparent;
+    line-height: 25px;
+    font-size: 14px
+}
+
+.search-m .button {
+    -moz-border-radius: 0;
+    border-radius: 0;
+    right: 0;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    background-color: #f10215;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff
+}
+.search-fix {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #f10214;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2)
+}
+.search-fix .search-m {
+    margin: auto;
+    width: 1190px;
+    height: 48px
+}
+
+.search-fix .search-m .form {
+    top: 6px
+}
+
+
+
+#shortcut {
+    border-bottom: 1px solid #ddd;
+    background-color: #e3e4e5
+}
+
+#shortcut .w {
+    height: 30px;
+    line-height: 30px;
+    color: #999
+}
+
+#orderContents{
+    width:180px;
+    height:300px;
+    float:left;
+    margin-left:100px;
+    margin-top:50px;
+    margin-bottom:100px;
+    border-color: #fafafa;
+}
+.btnSortAss{
+    width: 50px;
+    height: 30px;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.sortPrice{
+    height: 30px;
+    width: 80px;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#shopping-chart{
+    width: 170px;
+    height: 40px;
+    border: 5px;
+    border-radius: 5px;
+    background-color: #f10215;
+    font-weight: bold;
+    color: white
+}
